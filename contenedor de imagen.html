@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Ejercicio</title>
+
+ 
+
+</head>
+<style media="screen">/*estilo para diversos medios electronicos*/ 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'gugi',cursive;
+}
+body{
+    background:#ffffff;
+}
+.container{
+    max-width:80vw; /*si el dispositivo tiene un tamaño de ancho menor al indicado*/ 
+    margin:auto;
+}
+.box{
+    display: inline-block;
+    text-align:center;
+    width:24%;
+}
+.box h1 {
+    padding-top:3rem /* Rem unidades relativas en medida 1 rem= 16px*/
+}
+.box p{
+    padding:2rem;
+    text-align:justify;
+}
+img{
+    width:100%;
+    height:auto;
+}
+#box-1{
+    height:100vh;/* vh: alto de la pantalla "v" por el viewport 1vh- 1%*/ 
+    background:#00B744;
+}
+#box-2{
+    height:100vh;
+    background:#0057e7
+}
+#box-3{
+    height:100vh;
+    background:#d62d20;
+}
+#box-4{
+    height:100vh;
+    background:#ffa7000;
+}
+/*smarphone*/
+@media(max-width:500px){
+    .box {
+        width:100%
+}
+}
+/*tablet*/
+@media(min-width: 501px)and(max-width: 768px){
+    box{
+        width:40%;
+    }
+}
+</style>
+<body>
+    <div class="container">
+        <div id="box-1"class="box">
+            <img src="https://picsum.photos/200/300?grayscale"alt="">
+            <h1>imagen escala grises</h1>
+            <p>esta pestaña cada que se actualice, mostrara imagenes de color grises</p>
+            </div>
+            <div id="box-2"class="box">
+                <img src="https://picsum.photos/seed/picsum/200/300"alt="">
+                <h1>imagen paisajes</h1>
+                <p>esta pestaña cada que se actualice,mostrara imagenes de paisajes</p>
+                </div>
+                <div id="box-3"class="box">
+                    <img src="https://picsum.photos/id/23/367/267"alt="">
+                    <h1>imagen de un tenedor</h1>
+                    <p>esta pestaña cada que se actualice, mostrara imagen de un tenedor</p>
+                    </div>
+                    <div id="box-4"class="box">
+                        <img src="https://picsum.photos/536/354"alt="">
+                        <h1>imagen aleatoria</h1>
+                        <p>esta pestaña cada que se actualice, mostrara imagenes aleatoria</p>
+                        </div>
+                        </div>
+                        </body>
+                        </html>

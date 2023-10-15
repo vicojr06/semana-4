@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible"content="ie edge">
+    <meta name="description"content="anteproyecto">
+    <meta name="keywords"content="university,facultad,ingenieria,mecanica electrica">
+    <title>FIME educacion tecnica</title>
+    <link rel="stylesheet"type="text/css" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+        <div class="container">
+            <hi class="logo" title="FIME Educacion tecnica"><a href="/index.html">FIME</a><hi>
+                <ul>
+                        <li></a href="/about.html">acerca de</a><li>
+                            <li><a href="/contact.html">contacto</a><li>
+                                <li><a href="/practicas.html">practicas</a><li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <div id="welcone">
+                            <div class="container">
+                                <div class="welcome-content">
+                                    <h1><span class="text-primary">#somos</span>Loquehacemos</h1>
+                                    <p class="lead">Juntos por</span class="text-primary"><b></b></span> Con identidad y orgullo</p>
+                                    <a href="/about.html"class="btn">Acerca de fime</a>
+                                </div>
+                            </div>
+                        </div>
+    </header>
+    <section id="testimonials1" class="py-3">
+        <section id="features">
+            <div class="box bg-light">
+                <i class ="fas fa-globe-americas fa-3x"></i>
+                <h3>pagina libre</h3>
+                <p>eligiran su pagina libre</p>
+                <div>
+                    <!--https://fontawesome.com/icons-->
+                    <div class="box bg-light">
+                        <i class="fas fa-futbol fa-3x"></i>
+                        <h3>mi deportes</h3>
+                        <p>eligiran una pagina de su deporte favorito</p>
+                        </div>
+                        <div class="box bg-light">
+                            <i class="fas fa-film fa-3x"></i>
+                            <h3>mis videos</h3>
+                            <ul>
+                                <li><a href="https://mx.video.search.yahoo.com/search/video;_ylt=AwrO_0sYBCxlzegpk0LD8Qt.;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3Nj?p=videos+de+los+simpsons&type=E211MX714G0&ei=UTF-8&fr=mcafee&turl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOVP.KuAP-2T3v3YQ65F3DaDJMwEsDh%26pid%3DApi%26w%3D296%26h%3D156%26c%3D7%26p%3D0&rurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DmSj73OpCqKk&tit=Esto+gana+Homero+simpson+Los+simpsons+t33+Completo&pos=1&vid=b877eaff7532616a76fde9a6288d1357&sigr=yM1soEJhDBOA&sigt=KVN0.rjjLiET&sigi=aYezbjxOrHBx"target="_blank"video1></a></li>
+                                <il><a class="current"href=""target="_blank">Video2</a>
+                                    </il>
+                                </ul>              
+                                </div>
+                                <center><iframe width="560"height="315"src=""
+
+                                    title="youtube video player"frameborder="0"
+                                    allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture;web-share"
+                                    allowfullscreen></iframe>
+                                    </center>
+                                </section>
+                    
